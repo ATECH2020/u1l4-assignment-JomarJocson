@@ -25,9 +25,9 @@ class Timestamps {
         /*
          *  your code goes here
          */
-        deltaHour = hours2-hours1;
-        deltaHour = minutes2-minutes1;
-        deltaHour = seconds2-seconds1;
+        deltaHours = hours2-hours1;
+        deltaMin = minutes2-minutes1;
+        deltaSec = seconds2-seconds1;
         hours = deltaHours * 3600;
         min = deltaMin * 60;
         sec = deltaSec * 1;

@@ -19,7 +19,7 @@ class Timestamps {
         int hours;
         int min;
         int sec;
-
+        int add;
 
 
         /*
@@ -31,7 +31,8 @@ class Timestamps {
         hours = deltaHours * 3600;
         min = deltaMin * 60;
         sec = deltaSec * 1;
-        System.out.print(hours + " " + min + " " + sec);
+        add = hours + min + sec;
+        System.out.print(add);
         // closing the scanner object
         scanner.close();
     }
